@@ -31,8 +31,34 @@ class Home extends Component {
         <Header />
         <Footer />
         <div className="container card-columns ml-auto mr-auto mt-5 row d-flex justify-content-between ">
-          <div className="card col-lg-3 bg-dark text-center shadow ">
-            <div className="card-header bg-secondary text-center text-white mt-3">
+          <div className="card col-lg-5 bg-dark text-center order-lg-1  ">
+            <img
+              class="card-img-top rounded-circle mt-3"
+              src="/profileImage.png"
+              alt="Card image cap"
+              style={{ width: 40 + "%" }}
+            />
+            <div class="card-body text-white">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">
+                My goal is to become a first rate full stack developer with the
+                skills to tackle any job requested of me. I am currently skilled
+                in HTML, CSS, JavaScript, React, node.js, mongoDB, gulp, among
+                other technologies. My aim is to never stop learning and
+                expanding my abilities as a developer. I’d like to work for a
+                fitness technology company to help others lead a healthy,
+                informed, and inspired life!
+              </p>
+              <a
+                href="mailto:joshua.blasbalg@gmail.com"
+                class="btn btn-primary"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+          <div className="card col-lg-3 bg-dark text-center shadow order-0 ">
+            <div className="card-header bg-secondary text-center text-white mt-3 ">
               <h5 className="card-title mb-0">Projects</h5>
             </div>
             <ul class="list-group list-group-flush highfive">
@@ -122,35 +148,7 @@ class Home extends Component {
               </a>
             </ul>
           </div>
-
-          <div className="card col-lg-5 bg-dark text-center  ">
-            <img
-              class="card-img-top rounded-circle mt-3"
-              src="/profileImage.png"
-              alt="Card image cap"
-              style={{ width: 40 + "%" }}
-            />
-            <div class="card-body text-white">
-              <h5 class="card-title">About Me</h5>
-              <p class="card-text">
-                My goal is to become a first rate full stack developer with the
-                skills to tackle any job requested of me. I am currently skilled
-                in HTML, CSS, JavaScript, React, node.js, mongoDB, gulp, among
-                other technologies. My aim is to never stop learning and
-                expanding my abilities as a developer. I’d like to work for a
-                fitness technology company to help others lead a healthy,
-                informed, and inspired life!
-              </p>
-              <a
-                href="mailto:joshua.blasbalg@gmail.com"
-                class="btn btn-primary"
-              >
-                Contact Me
-              </a>
-            </div>
-          </div>
-
-          <div className="card col-lg-3 bg-dark  shadow">
+          <div className="card col-lg-3 bg-dark  shadow order-3">
             <div className="card-header bg-secondary text-center text-white mt-3">
               <h5 className="card-title ">Treehouse Badges</h5>
               <div className="highfive">
@@ -171,9 +169,6 @@ class Home extends Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="container card-columns ml-auto mr-auto mt-5 row d-flex justify-content-around ">
-          <div className="card col-lg-6 bg-dark text-center" />
         </div>
       </div>
     );
