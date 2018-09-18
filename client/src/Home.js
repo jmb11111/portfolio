@@ -27,7 +27,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="bg-secondary">
         <Header />
         <Footer />
         <div className="container card-columns ml-auto mr-auto mt-5 row d-flex justify-content-between ">
@@ -134,10 +134,12 @@ class Home extends Component {
               <h5 class="card-title">About Me</h5>
               <p class="card-text">
                 My goal is to become a first rate full stack developer with the
-                skills to tackle any job requested of me. I am currently skilled in HTML, CSS, JavaScript, React, node.js, mongoDB, gulp, among other technologies. My aim is to never
-                stop learning and expanding my abilities as a developer. I’d
-                like to work for a fitness technology company to help others
-                lead a healthy, informed, and inspired life!
+                skills to tackle any job requested of me. I am currently skilled
+                in HTML, CSS, JavaScript, React, node.js, mongoDB, gulp, among
+                other technologies. My aim is to never stop learning and
+                expanding my abilities as a developer. I’d like to work for a
+                fitness technology company to help others lead a healthy,
+                informed, and inspired life!
               </p>
               <a
                 href="mailto:joshua.blasbalg@gmail.com"
