@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.highfive {
+  max-height: 460px;
+  overflow-y: scroll;
+}
+
+.cardBackground {
+  background-color: #6c9f7f;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: 0.4;
+  transition: all 0.5s;
+}
+a.twitter {
+  background-image: url(/twitter.svg);
+}
+a.linkedin {
+  background-image: url(/linkedin.svg);
+}
+a.github {
+  background-image: url(/github.svg);
+}
+a.facebook {
+  background-image: url(/facebook.svg);
+}
+a.social:hover {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
