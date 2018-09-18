@@ -27,10 +27,10 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="bg-secondary">
+      <div className="bg-secondary" style={{ height: 800 + "px" }}>
         <Header />
         <Footer />
-        <div className="container card-columns ml-auto mr-auto mt-5 row d-flex justify-content-between ">
+        <div className="container card-columns ml-auto mr-auto mt-3 row d-flex justify-content-between ">
           <div className="card col-lg-5 bg-dark text-center order-lg-1  ">
             <img
               class="card-img-top rounded-circle mt-3"
