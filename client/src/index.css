@@ -41,3 +41,7 @@ a.social:hover {
   opacity: 1;
   transform: scale(1.5);
 }
+
+a.list-group-item:hover {
+  background-color: #6c9f7f;
+}
