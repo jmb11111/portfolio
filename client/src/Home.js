@@ -149,8 +149,8 @@ class Home extends Component {
               </a>
             </ul>
           </div>
-          <div className="card col-lg-3 bg-dark  shadow order-3">
-            <div className="card-header bg-secondary rounded text-center text-white mt-3">
+          <div className="card col-lg-3 bg-dark   order-3">
+            <div className="card-header bg-light text-center text-dark mt-3">
               <h5 className="card-title ">Treehouse Badges</h5>
               <div className="highfive">
                 {this.state.badges.map((badge, index) => (
