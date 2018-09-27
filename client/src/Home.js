@@ -154,12 +154,23 @@ class Home extends Component {
               <h5 className="card-title mb-0">Badges</h5>
             </div>
 
-            <ul className="list-group highfive list-group-flush mb-0 ">
+            <div className=" highfive mb-0 ">
               {this.state.badges.map((badge, index) => (
-                <li class="list-group-item shadow-none text-dark">
-                  <strong>{badge.name}</strong>
-                  <br />
-                  <a href={badge.url} target="_">
+                <div className="main" style={{ width: 45 + "px" }}>
+                  <div
+                    class="collapse"
+                    id={"collapseExample" + index}
+                    style={{ width: 245 + "px" }}
+                  />
+                  <a
+                    class=""
+                    data-toggle="collapse"
+                    href={"#collapseExample" + index}
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    {" "}
                     <img
                       src={badge.icon_url}
                       alt="Badge"
@@ -167,9 +178,19 @@ class Home extends Component {
                       width="30px"
                     />
                   </a>
-                </li>
+
+                  <div
+                    class="collapse mb-3 text-light"
+                    id={"collapseExample" + index}
+                    style={{ width: 245 + "px" }}
+                  >
+                    <a className="text-white" href={badge.url} target="_">
+                      <strong>{badge.name}</strong>
+                    </a>
+                  </div>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
         <Footer />
