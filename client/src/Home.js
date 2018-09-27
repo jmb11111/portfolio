@@ -59,7 +59,7 @@ class Home extends Component {
             </div>
           </div>
           <div className="card col-lg-3 bg-dark text-center shadow order-0 ">
-            <div className="card-header bg-secondary text-center text-white mt-3 ">
+            <div className="card-header cardBackground text-center text-dark mt-3 ">
               <h5 className="card-title mb-0">Projects</h5>
             </div>
             <ul class="list-group list-group-flush mb-0 highfive rounded">
@@ -149,29 +149,27 @@ class Home extends Component {
               </a>
             </ul>
           </div>
-          <div className="card col-lg-3 bg-dark   order-3">
-            <div className="card-header bg-light text-center text-dark mt-3">
-              <h5 className="card-title ">Treehouse Badges</h5>
-              <div className="highfive">
-                {this.state.badges.map((badge, index) => (
-                  <ul className="list-group list-group-flush mb-0 highfive rounded">
-                    <li class="list-group-item">
-                      Cras justo odio
-                      <strong>{badge.name}</strong>
-                      <br />
-                      <a href={badge.url} target="_">
-                        <img
-                          src={badge.icon_url}
-                          alt="Badge"
-                          class="ml-auto"
-                          width="30px"
-                        />
-                      </a>
-                    </li>
-                  </ul>
-                ))}
-              </div>
+          <div className="card col-lg-3 bg-dark text-center shadow order-3 ">
+            <div className="card-header cardBackground text-center text-dark mt-3 ">
+              <h5 className="card-title mb-0">Badges</h5>
             </div>
+
+            <ul className="list-group highfive list-group-flush mb-0 ">
+              {this.state.badges.map((badge, index) => (
+                <li class="list-group-item shadow-none text-dark">
+                  <strong>{badge.name}</strong>
+                  <br />
+                  <a href={badge.url} target="_">
+                    <img
+                      src={badge.icon_url}
+                      alt="Badge"
+                      class="ml-auto"
+                      width="30px"
+                    />
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
         <Footer />

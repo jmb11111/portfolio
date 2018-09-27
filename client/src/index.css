@@ -7,7 +7,7 @@ body {
 }
 
 .highfive {
-  max-height: 460px;
+  max-height: 500px;
   overflow-y: scroll;
 }
 
@@ -44,4 +44,8 @@ a.social:hover {
 
 a.list-group-item:hover {
   background-color: #6c9f7f;
+}
+
+.noBorder {
+  border: none;
 }
