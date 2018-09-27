@@ -154,18 +154,21 @@ class Home extends Component {
               <h5 className="card-title ">Treehouse Badges</h5>
               <div className="highfive">
                 {this.state.badges.map((badge, index) => (
-                  <h6 className="card-title cardBackground rounded text-white p-2 ">
-                    <strong>{badge.name}</strong>
-                    <br />
-                    <a href={badge.url} target="_">
-                      <img
-                        src={badge.icon_url}
-                        alt="Badge"
-                        class="ml-auto"
-                        width="30px"
-                      />
-                    </a>
-                  </h6>
+                  <ul className="list-group list-group-flush mb-0 highfive rounded">
+                    <li class="list-group-item">
+                      Cras justo odio
+                      <strong>{badge.name}</strong>
+                      <br />
+                      <a href={badge.url} target="_">
+                        <img
+                          src={badge.icon_url}
+                          alt="Badge"
+                          class="ml-auto"
+                          width="30px"
+                        />
+                      </a>
+                    </li>
+                  </ul>
                 ))}
               </div>
             </div>
