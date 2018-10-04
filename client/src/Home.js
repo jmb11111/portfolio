@@ -56,13 +56,17 @@ class Home extends Component {
               >
                 Contact Me
               </a>
+              <a
+                href="https://www.credential.net/3m9ugpww"
+                class="btn btn-primary"
+              >
+                Techdegree
+              </a>
             </div>
           </div>
           <div className="card col-lg-3 bg-dark text-center shadow order-0 ">
             <div className="card-header cardBackground text-center text-dark mt-3 ">
-              <h5 className="card-title mb-0">
-                <a href="https://www.credential.net/3m9ugpww">Techdegree</a>
-              </h5>
+              <h5 className="card-title mb-0">Projects</h5>
             </div>
             <ul class="list-group list-group-flush mb-0 highfive rounded">
               <a
