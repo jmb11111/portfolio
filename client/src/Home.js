@@ -50,15 +50,16 @@ class Home extends Component {
                 technology company to help others lead a healthy, informed, and
                 inspired life!
               </p>
+
               <a
                 href="mailto:joshua.blasbalg@gmail.com"
-                class="btn btn-primary"
+                class="btn btn-primary mr-1"
               >
                 Contact Me
               </a>
               <a
                 href="https://www.credential.net/3m9ugpww"
-                class="btn btn-primary"
+                class="btn btn-primary ml-1"
               >
                 Techdegree
               </a>
