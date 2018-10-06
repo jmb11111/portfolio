@@ -16,6 +16,9 @@ body {
 .cardBackground {
   background-color: #6c9f7f;
 }
+.button:hover {
+  background-color: #3c674c;
+}
 a {
   font-weight: bold;
 }
