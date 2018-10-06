@@ -60,6 +60,15 @@ class Header extends Component {
                 Github
               </a>
             </li>
+            <li class="nav-item">
+              <a
+                href="https://www.instagram.com/jmb121592/"
+                target="_blank"
+                class="social instagram ml-0"
+              >
+                Instagram
+              </a>
+            </li>
           </ul>
         </div>
       </nav>

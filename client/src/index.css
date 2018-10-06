@@ -45,6 +45,9 @@ a.github {
 a.facebook {
   background-image: url(/facebook.svg);
 }
+a.instagram {
+  background-image: url(/instagram.svg);
+}
 a.social:hover {
   opacity: 1;
   transform: scale(1.5);
