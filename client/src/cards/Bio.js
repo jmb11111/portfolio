@@ -25,13 +25,13 @@ class Bio extends Component {
 
           <a
             href="mailto:joshua.blasbalg@gmail.com"
-            class="btn btn-primary mr-1 button cardBackground border border-white"
+            class="btn btn-primary mr-1 button cardBackground border-0"
           >
             Contact Me
           </a>
           <a
             href="https://www.credential.net/3m9ugpww"
-            class="btn btn-primary ml-1 button cardBackground border border-white"
+            class="btn btn-primary ml-1 button cardBackground border-0"
           >
             Techdegree
           </a>
