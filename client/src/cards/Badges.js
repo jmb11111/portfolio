@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 
 class Badges extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       badges: []
     };
@@ -12,7 +12,6 @@ class Badges extends Component {
     axios
       .get(`/badges`)
       .then(response => {
-        // console.log(response.data.badges);
         this.setState({ badges: response.data.badges });
       })
       .catch(error => {
@@ -58,7 +57,6 @@ class Badges extends Component {
               <div
                 class="collapse mb-3 text-light"
                 id={"collapseExample" + index}
-                // style={{ width: 245 + "px" }}
               >
                 <a className="text-white" href={badge.url} target="_">
                   <strong>{badge.name}</strong>
