@@ -62,3 +62,13 @@ a.list-group-item:hover {
 .noBorder {
   border: none;
 }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1100px) {
+  /* Pull out the header and footer */
+  .mastfoot {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+}
